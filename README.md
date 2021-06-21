@@ -5,5 +5,7 @@ first install go modules in current operating system.
 
 git clone https://github.com/deadbedpk/web_app_ymdt.git .
 
+cd web_app_ymdt.
+
 go run app.go 
 //then open the browser type localhost:6543
