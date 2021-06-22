@@ -9,3 +9,26 @@ cd web_app_ymdt.
 
 go run app.go 
 //then open the browser type localhost:6543
+
+
+-----------------
+
+In docker environment 
+
+1. docker build . -t <name> 
+2. docker images // now it will listed 
+3. docker run --name <name> <image id or container id > 
+  
+  
+-----------------
+  
+In k8s environment 
+  
+1. kubectl create -f https://github.com/deadbedpk/web_app_ymdt/finalreplica.yaml 
+  // this will create 2 replica and go to browser in url 
+  
+  https://localhost:30008 // it will visible in browser 
+
+ 
+  
+
