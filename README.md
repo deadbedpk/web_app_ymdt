@@ -24,7 +24,7 @@ In docker environment
   
 In k8s environment 
   
-1. kubectl create -f https://github.com/deadbedpk/web_app_ymdt/finalreplica.yaml 
+1. kubectl create -f https://github.com/deadbedpk/web_app_ymdt/blob/main/finalreplica.yaml 
   // this will create 2 replica and go to browser in url 
   
   https://localhost:30008 // it will visible in browser 
